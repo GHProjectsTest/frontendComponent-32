@@ -75,7 +75,7 @@ var loadSongs = function(){
   //Additional own javascript    
 client.sendRequest("GET", "songs", "", "", {}, false,
   function(data, type) {
-    document.getElementById("p").innerText = data.nmap
+    document.getElementById("p").innerText = data.nmap(song => song.title):
   },
   function(error) {
     console.log(error);
