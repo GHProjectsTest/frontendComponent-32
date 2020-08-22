@@ -72,7 +72,13 @@ var loadSongs = function(){
     console.log(error);
   });
 
-  //Additional own javascript
+  //Additional own javascript   client.sendRequest("GET", "songs", "", "", {}, false,
+  function(data, type) {
+    
+  },
+  function(error) {
+    console.log(error);
+  });
 
 }
 
